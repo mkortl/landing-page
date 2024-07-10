@@ -1,0 +1,99 @@
+html {
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+background-color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;  
+}
+
+.navigation {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.intro {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    gap: 48px;
+
+}
+
+.right, .left{
+    flex:1;
+}
+
+.right {
+    background-color: grey;
+    color: #f9faf8;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+p {
+font-size: 18px;
+color: #E5E7EB;
+margin: 18px 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 9px;
+    border: 0px;
+    padding: 10px 32px; 
+}
